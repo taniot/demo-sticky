@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+}
+
+.scroll {
+  display: flex;
+
+  background-color: blue;
+  align-items: flex-start;
+}
+
+.scroll > div {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.left {
+  background-color: pink;
+}
+
+.right {
+  background-color: red;
+  height: 100vh;
+  position: sticky;
+  right: 0;
+  top: 0;
+}
+
+.after {
+  height: 100vh;
+  background-color: green;
+}
+
+img {
+  width: 80%;
+}
